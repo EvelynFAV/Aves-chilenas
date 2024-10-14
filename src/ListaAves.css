@@ -1,0 +1,28 @@
+.contenedor-aves {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Espaciado entre tarjetas */
+    padding: 16px;
+}
+
+.ave-card {
+    border: 1px solid #0e3611;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 250px; /* Ancho de la tarjeta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #8dca92;
+}
+
+.ave-card img {
+    width: 100%; /* Asegura que la imagen no se desborde de la tarjeta */
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: cover; /* Cubre el contenedor sin distorsionar la imagen */
+    border-radius: 10px;
+}
+
+.ave-card p {
+    margin: 8px;
+    font-size: 16px;
+    color: #333;
+}
